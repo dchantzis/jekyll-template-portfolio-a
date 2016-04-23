@@ -28,7 +28,19 @@
 
         <ul class="list-group--inline push-0 social-links">
           <li class="email milli"><a href="mailto:{{site.email}}">{{site.email}}</a></li>
-
+        {% for social in site.social %}
+          {% assign social.provider == social.provider | downcase %}
+            <li class="list-group__item mega">
+            {% case social.provider %}
+              {% when 'facebook' %}
+                 <a href="https://www.facebook.com/{{social.account-id}}" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              {% when 'instagram' %}
+                 <a href="https://www.instagram.com/{{social.account-id}}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              {% when 'twitter' %}
+                 <a href="https://twitter.com/{{social.account-id}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            {% endcase %}
+            </li>
+        {% endfor %}
         </ul>
       </div>
     </div>

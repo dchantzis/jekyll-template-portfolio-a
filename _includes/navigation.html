@@ -1,6 +1,6 @@
-{% assign site-pages = site.pages | sort:"weight" %}
+
 <ul class="{% if 'm-l-xl' == include.navType %}list-group--inline{% else %}list-group brand-highlight{% endif %} push-0 ">
-  {% for site-page in site-pages %}
+  {% for site-page in site.pages %}
     {% if site-page.url contains "page2" %}{% continue %}{% endif %}
     {% if true == site-page.includeInNavigation %}
       <li class="list-group__item {% if 'xs-s' == include.navType %}pad-t-1-4 pad-b-1-2{% endif %}">
