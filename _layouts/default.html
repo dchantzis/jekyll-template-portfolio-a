@@ -29,7 +29,7 @@
 
   {% include header.html %}
 
-  <main class="main-content pad-t pad-b-1-2 gutter-1-2">
+  <main class="main-content pad-t pad-b-1-2 {% if '/' != page.url %}gutter{% else %}gutter-1-2{% endif %}">
 
     {{content}}
 

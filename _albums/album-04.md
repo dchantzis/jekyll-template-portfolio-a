@@ -13,6 +13,7 @@ includeInNavigation: false
 weight: 0
 cover: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=268.5x316&w=268.5&h=316
 album-weight: 4
+hide-title: false
 description: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus est, blandit ac felis sit amet, hendrerit laoreet risus. Donec efficitur quam magna, ac hendrerit sapien congue in.
   Integer libero ligula, mattis venenatis malesuada in, interdum et tortor. Integer quis ullamcorper ante.

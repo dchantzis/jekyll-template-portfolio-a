@@ -1,5 +1,10 @@
 ---
 layout: post
+title: Forth post
+category: news
+tags:
+  - tag 3
+related:
 images:
   - title: Image 1
     date: 2016

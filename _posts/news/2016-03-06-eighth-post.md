@@ -1,26 +1,12 @@
 ---
-layout: album
-title: album 01
-titleBefore:
-titleAfter:
-meta: "Page description"
-author:
-image:
-keywords: ""
-sectionClass: ""
-priority: 1.0
-includeInNavigation: false
-weight: 0
-cover: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=268.5x316&w=268.5&h=316
-album-order: 1
-hide-title: false
-description: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus est, blandit ac felis sit amet, hendrerit laoreet risus. Donec efficitur quam magna, ac hendrerit sapien congue in.
-  Integer libero ligula, mattis venenatis malesuada in, interdum et tortor. Integer quis ullamcorper ante.
-links:
-  - href: http://www.google.com
-    text: www.google.com
-    external: true
+layout: post
+title: Eighth post
+category: news
+tags:
+  - tag 5
+  - tag 2
+related:
+  - Ninth post with more characters in title
 images:
   - title: Image 1
     date: 2016
@@ -38,7 +24,7 @@ images:
     materials: watercolours on cold-pressed paper
     image-order: 2
     src:
-      fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=ff0000&txt=320x477&w=320&h=477
+      fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=320x477&w=320&h=477
       thumbnail:
 ---
 

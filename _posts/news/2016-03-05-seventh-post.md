@@ -1,5 +1,11 @@
 ---
 layout: post
+title: Seventh post
+category: news
+tags:
+  - tag 1
+related:
+  - Sixth post
 images:
   - title: Image 1
     date: 2016

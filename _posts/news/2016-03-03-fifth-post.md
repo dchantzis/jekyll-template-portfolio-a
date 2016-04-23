@@ -1,5 +1,10 @@
 ---
 layout: post
+title: Fifth post
+category: news
+tags:
+  - tag 3
+related:
 images:
   - title: Image 1
     date: 2016
@@ -7,6 +12,7 @@ images:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     materials: watercolours on cold-pressed paper
     image-order: 1
+    tags: [ "tag-1" ]
     src:
       fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=320x477&w=320&h=477
       thumbnail:

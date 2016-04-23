@@ -1,5 +1,10 @@
 ---
 layout: post
+title: Third post
+category: news
+tags:
+  - tag 1
+related:
 images:
   - title: Image 1
     date: 2016

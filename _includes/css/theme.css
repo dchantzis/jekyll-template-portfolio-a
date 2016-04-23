@@ -62,7 +62,10 @@ p a:visited {
 .nav a:focus,
 .pagination a:hover,
 .pagination a:active,
-.pagination a:focus {
+.pagination a:focus,
+.related-posts a:hover,
+.related-posts a:active,
+.related-posts a:focus {
   border-bottom: 1px solid rgba(68, 68, 68, 1);
 }
 
@@ -131,6 +134,16 @@ p a:visited {
 .pagination-slim li:first-child::after {
   content: "/";
 }
+
+.related-posts .related-post-date,
+.related-posts .related-post-title {
+  display: inline-block;
+}
+
+.related-posts .related-post-date::after {
+  content: " /";
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -230,7 +243,7 @@ p a:visited {
     text-align: right;
   }
 
-  .aside-post {
+  .aside-container {
     padding-top: 0;
     padding-left: 2.6000rem;
   }
