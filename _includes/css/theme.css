@@ -1,0 +1,258 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lekton', sans-serif;
+}
+
+body {
+  color: #000000;
+}
+
+.brand {
+  color: rgba(68, 68, 68, 1);
+}
+
+.brand-highlight {
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 1px;
+}
+
+a,
+a:link,
+a:visited {
+  color: rgba(68, 68, 68, 1);
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  border-bottom: 0;
+}
+
+.nav-xs-s-main a.current,
+a.current {
+  color: rgba(139, 139, 139, 1);;
+}
+
+
+
+li.email {
+  letter-spacing: 1px;
+  display: block;
+}
+
+.social-links a,
+.social-links a:link,
+.social-links a:visited {
+  color: #000;
+  border-bottom: 0;
+}
+
+p a,
+p a:link,
+p a:visited {
+  border-bottom: 1px solid rgba(68, 68, 68, 1);
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a:focus,
+.pagination a:hover,
+.pagination a:active,
+.pagination a:focus {
+  border-bottom: 1px solid rgba(68, 68, 68, 1);
+}
+
+.nav-xs-s-main {
+  border-bottom: 1px solid rgba(199, 199, 199, 1);
+}
+.nav-xs-s-main a {
+  color: rgba(181, 181, 181, 1);
+}
+
+.nav-m-l-xl-main .list-group__item {
+  padding-right: 1rem;
+}
+
+.graphic-info h5 {
+  text-transform: capitalize;
+  font-weight: normal;
+  font-family: 'Abel', sans-serif;
+}
+.graphic-info span {
+  display: none;
+}
+
+.unit.album-cover {
+  transition: width 250ms linear;
+}
+
+/*
+.album-cover {
+  width: 268.5px;
+  height: 316px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 1.5rem;
+}
+
+.albums .grid .unit:first-child {
+  margin-left: 0;
+}
+
+.album-cover img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -45px;
+}
+*/
+
+
+.p-container p {
+  margin-bottom: 0.3500rem;
+}
+
+.masthead {
+  text-align: center;
+}
+.masthead,
+.main-content {
+}
+
+.album-image .graphic-info {
+  padding-top: 0.750rem;
+}
+
+.pagination-slim li:first-child::after {
+  content: "/";
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo-wrapper {
+    margin-bottom: 0;
+  }
+
+  .masthead {
+    text-align: left;
+  }
+
+  .masthead,
+  .main-content {
+    margin: 0 auto;
+  }
+
+  .email {
+    text-align: right;
+    letter-spacing: 1px;
+    padding-right: 0.5rem;
+    line-height: 1.6rem;
+    float: left;
+  }
+
+  .social-links {
+    text-align: right;
+    float:right;
+  }
+
+
+  .album-cover .graphic {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .album-cover .graphic-info {
+
+    position: absolute;
+    top: -2.3rem;
+    bottom: -2.3rem;
+    left: -2.3rem;
+    right: -2.3rem;
+
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    transform-origin: center center;
+    opacity: 0;
+
+    transition: all 200ms ease-out;
+  }
+
+  .album-cover .graphic-info figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+  }
+
+  .album-cover .graphic-info .media-title {
+    display: block;
+    color: #fff;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+
+  .album-cover .graphic-info h5 {
+    text-transform:capitalize;
+  }
+  .album-cover .graphic-info span {
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(140, 136, 136, 1);
+  }
+
+  .album-cover .graphic-info a {
+    margin-top: 0.1rem;
+    text-decoration: none;
+  }
+
+  .album-cover .graphic:hover .graphic-info {
+    opacity: 1;
+  }
+
+  .album .graphic-info {
+    padding-top: 0;
+    padding-left: 2.6000rem;
+    text-align: right;
+  }
+
+  .aside-post {
+    padding-top: 0;
+    padding-left: 2.6000rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead,
+  .main-content {
+    width: 47rem;
+  }
+
+  .email {
+    line-height: 1.8rem;
+  }
+
+  .album .graphic-info {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+}

@@ -1,0 +1,169 @@
+- title: album 01
+  slug: album-01
+  cover: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=268.5x316&w=268.5&h=316
+  weight: 1
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus est, blandit ac felis sit amet, hendrerit laoreet risus. Donec efficitur quam magna, ac hendrerit sapien congue in.
+    Integer libero ligula, mattis venenatis malesuada in, interdum et tortor. Integer quis ullamcorper ante.
+  links:
+    - href: http://www.google.com
+      text: www.google.com
+      external: true
+  images:
+    - title: Image 1
+      date: 2016
+      dimensions: 9 x 10 cm
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      materials: watercolours on cold-pressed paper
+      weight:
+      src:
+        fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=320x477&w=320&h=477
+    - title: Image 2
+      date: 2016
+      dimensions: 9 x 10 cm
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      materials: watercolours on cold-pressed paper
+      weight:
+      src:
+        fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=ff0000&txt=320x477&w=320&h=477
+
+
+- title: album 02
+  slug: album-02
+  cover: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=268.5x316&w=268.5&h=316
+  weight: 2
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus est, blandit ac felis sit amet, hendrerit laoreet risus. Donec efficitur quam magna, ac hendrerit sapien congue in. Integer libero ligula, mattis venenatis malesuada in, interdum et tortor. Integer quis ullamcorper ante.
+
+    Fusce sit amet mauris consectetur, imperdiet metus dictum, dignissim dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  links:
+    - href: http://www.google.com
+      text: www.google.com
+      external: true
+  images:
+    - title: Image 1
+      date: 2016
+      dimensions: 9 x 10 cm
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      materials: watercolours on cold-pressed paper
+      weight:
+      src:
+        fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=320x477&w=320&h=477
+    - title: Image 2
+      date: 2016
+      dimensions: 9 x 10 cm
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      materials: watercolours on cold-pressed paper
+      weight:
+      src:
+        fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=ff0000&txt=320x477&w=320&h=477
+
+- title: album 03
+  slug: album-03
+  cover: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=268.5x316&w=268.5&h=316
+  weight: 3
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus est, blandit ac felis sit amet, hendrerit laoreet risus. Donec efficitur quam magna, ac hendrerit sapien congue in. Integer libero ligula, mattis venenatis malesuada in, interdum et tortor. Integer quis ullamcorper ante.
+
+    Fusce sit amet mauris consectetur, imperdiet metus dictum, dignissim dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  links:
+    - href: http://www.google.com
+      text: www.google.com
+      external: true
+  images:
+    - title: Image 1
+      date: 2016
+      dimensions: 9 x 10 cm
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      materials: watercolours on cold-pressed paper
+      weight: 1
+      src:
+        fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=320x477&w=320&h=477
+
+- title: album 04
+  slug: album-04
+  cover: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=268.5x316&w=268.5&h=316
+  weight: 4
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus est, blandit ac felis sit amet, hendrerit laoreet risus. Donec efficitur quam magna, ac hendrerit sapien congue in. Integer libero ligula, mattis venenatis malesuada in, interdum et tortor. Integer quis ullamcorper ante.
+
+    Fusce sit amet mauris consectetur, imperdiet metus dictum, dignissim dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  links:
+    - href: http://www.google.com
+      text: www.google.com
+      external: true
+  images:
+    - title: Image 1
+      date: 2016
+      dimensions: 9 x 10 cm
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      materials: watercolours on cold-pressed paper
+      weight: 1
+      src:
+        fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=320x477&w=320&h=477
+
+- title: album 05
+  slug: album-05
+  cover: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=268.5x316&w=268.5&h=316
+  weight: 5
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus est, blandit ac felis sit amet, hendrerit laoreet risus. Donec efficitur quam magna, ac hendrerit sapien congue in. Integer libero ligula, mattis venenatis malesuada in, interdum et tortor. Integer quis ullamcorper ante.
+
+    Fusce sit amet mauris consectetur, imperdiet metus dictum, dignissim dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  links:
+    - href: http://www.google.com
+      text: www.google.com
+      external: true
+  images:
+    - title: Image 1
+      date: 2016
+      dimensions: 9 x 10 cm
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      materials: watercolours on cold-pressed paper
+      weight: 1
+      src:
+        fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=320x477&w=320&h=477
+
+- title: album 06
+  slug: album-06
+  cover: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=268.5x316&w=268.5&h=316
+  weight: 6
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus est, blandit ac felis sit amet, hendrerit laoreet risus. Donec efficitur quam magna, ac hendrerit sapien congue in. Integer libero ligula, mattis venenatis malesuada in, interdum et tortor. Integer quis ullamcorper ante.
+
+    Fusce sit amet mauris consectetur, imperdiet metus dictum, dignissim dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  links:
+    - href: http://www.google.com
+      text: www.google.com
+      external: true
+  images:
+    - title: Image 1
+      date: 2016
+      dimensions: 9 x 10 cm
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      materials: watercolours on cold-pressed paper
+      weight: 1
+      src:
+        fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=320x477&w=320&h=477
+
+- title: album 07
+  slug: album-07
+  cover: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=268.5x316&w=268.5&h=316
+  weight: 7
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus est, blandit ac felis sit amet, hendrerit laoreet risus. Donec efficitur quam magna, ac hendrerit sapien congue in. Integer libero ligula, mattis venenatis malesuada in, interdum et tortor. Integer quis ullamcorper ante.
+
+    Fusce sit amet mauris consectetur, imperdiet metus dictum, dignissim dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  links:
+    - href: http://www.google.com
+      text: www.google.com
+      external: true
+  images:
+    - title: Image 1
+      date: 2016
+      dimensions: 9 x 10 cm
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      materials: watercolours on cold-pressed paper
+      weight: 1
+      src:
+        fullsize: https://placeholdit.imgix.net/~text?txtsize=84&bg=cccccc&txt=320x477&w=320&h=477

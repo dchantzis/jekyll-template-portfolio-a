@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.titleBefore %}{{page.titleBefore}} · {% endif %}{% if page.title %}{{page.title | capitalize }} · {% endif %}{{site.website-title}}{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
+
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta name="description" content="{{ page.meta }}">
+  <meta name="author" content="{{ page.author }}">
+  <meta name="keywords" content="{% for keyword in site.data.meta-keywords %}{{keyword}}, {% endfor %}">
+
+  <meta property="og:title" content="{% if page.titleBefore %}{{page.titleBefore}} · {% endif %}{% if page.title %}{{page.title | capitalize}} · {% endif %}{{site.website-title}}{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}">
+  <meta property="og:image" content="{{ page.image }}">
+  <meta property="og:description" content="{{ page.meta }}">
+
+  <link href="{{site.baseurl}}/assets//css/main.css" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Google font: Lekton (Normal 400, Normal 400 Italic, Bold 700), Abel (Normal 400) -->
+  <link href='https://fonts.googleapis.com/css?family=Lekton:400,400italic,700|Abel' rel='stylesheet' type='text/css'>
+  <link href="{{site.baseurl}}favicon.ico" rel="shortcut icon">
+
+</head>
+
+<body class="brand">
+
+  {% include header.html %}
+
+  <main class="main-content pad-t pad-b-1-2 gutter-1-2">
+
+    {{content}}
+
+  </main>
+
+  <script src="{{site.baseurl}}/assets/js/jquery-1.12.3.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.localScroll.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.scrollTo.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.waypoints.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/main.js"></script>
+  <script src="{{site.baseurl}}/assets/js/map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google-api-key }}&callback=initMap"></script>
+  {% include analytics-tracking.html %}
+
+</body>
+
+</html>

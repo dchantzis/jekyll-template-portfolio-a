@@ -1,0 +1,26 @@
+markdown: kramdown
+baseurl: /template-portfolio-a
+website-title: Website title
+exclude: ['README.md', '.gitignore', 'aworks/']
+permalink: pretty
+site-name: James Doe
+email: contact@your.email.address
+social:
+  - provider: facebook
+    account-id: thejamesdoe
+  - provider: instagram
+    account-id: thejamesdoe
+  - provider: twitter
+    account-id: james_doe
+google-api-key:
+analytics :
+  provider : google
+  google :
+    tracking_id :
+collections:
+  albums:
+    output: true
+    permalink: /works/:path/
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "/news/page:num/"
