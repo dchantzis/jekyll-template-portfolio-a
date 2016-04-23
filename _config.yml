@@ -1,7 +1,7 @@
 markdown: kramdown
 baseurl: /template-portfolio-a
 website-title: Website title
-exclude: ['README.md', '.gitignore', 'aworks/']
+exclude: ['README.md', '.gitignore']
 permalink: pretty
 site-name: James Doe
 email: contact@your.email.address
