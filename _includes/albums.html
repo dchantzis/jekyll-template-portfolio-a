@@ -1,4 +1,4 @@
-<section class="albums gutter-1-2">
+<section class="albums gutter-1-4">
   {% assign albums = site.albums | sort:"album-order"  %}
   {% for album in albums %}
 
@@ -13,7 +13,7 @@
         <figure class="graphic">
           <a href="{{ site.baseurl }}{{album.url}}">
             <div class="embed embed-iso216">
-              <img class="embed-item flex-img " src="{{ album.cover | strip }}" alt="{{ album.title | strip | }}">
+              <img class="embed-item flex-img" src="{{ album.cover | strip }}" alt="{{ album.title | strip | }}">
             </div>
             <div class="graphic-info">
               <figcaption class="island-1-4">

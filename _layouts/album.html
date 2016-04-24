@@ -9,8 +9,8 @@ layout: default
 {% if false == album.hide-title %}
   <div class="grid album-info">
     <div class="unit [ xs-1 s-1 m-2-3 ]">
-      <h2 class="brand-highlight push-1-4 kilo">{{ album.title | strip | upcase}}</h2>
-      <div class="push-0 milli p-container">{{ content }}</div>
+      <h1 class="brand-highlight push-1-4 kilo">{{ album.title | strip | upcase}}</h1>
+      <div class="push-0 micro p-container">{{ content | markdownify}}</div>
     </div>
   </div>
 {% endif %}
@@ -24,13 +24,12 @@ layout: default
               <img class="embed-item flex-img " src="{{ image.src.fullsize | strip }}" alt="{{ album.title | strip | }}">
             </div>
           </div>
-          <div class="unit [ xs-1 s-1 m-1-3 ] graphic-info text-center milli">
+          <div class="unit [ xs-1 s-1 m-1-3 ] graphic-info text-center micro">
             <figcaption>
-              <h3 class="media-title push-0 kilo brand-highlight">{{ image.title | strip | upcase }}</h3>
-              <p class="push-0">({{ image.date }})</p>
+              <h3 class="media-title push-0 micro brand-highlight">{{ image.title | strip | upcase }} ({{ image.date }})</h3>
               <p class="push-0">{{ image.materials }}</p>
               <p class="push-0">{{ image.dimensions }}</p>
-              <div class="push-0 p-container">{{ image.description | newline_to_br | markdownify}}</div>
+              <div class="push-0 p-container">{{ image.description | markdownify}}</div>
             </figcaption>
           </div>
         </div>

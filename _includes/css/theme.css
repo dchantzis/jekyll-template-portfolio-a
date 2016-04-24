@@ -93,29 +93,6 @@ p a:visited {
   transition: width 250ms linear;
 }
 
-/*
-.album-cover {
-  width: 268.5px;
-  height: 316px;
-  position: relative;
-  overflow: hidden;
-  margin-left: 1.5rem;
-}
-
-.albums .grid .unit:first-child {
-  margin-left: 0;
-}
-
-.album-cover img{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: -45px;
-}
-*/
-
-
 .p-container p {
   margin-bottom: 0.3500rem;
 }
@@ -133,6 +110,10 @@ p a:visited {
 
 .pagination-slim li:first-child::after {
   content: "/";
+}
+
+.pagination {
+  text-align: center;
 }
 
 .related-posts .related-post-date,
@@ -246,6 +227,14 @@ p a:visited {
   .aside-container {
     padding-top: 0;
     padding-left: 2.6000rem;
+  }
+
+  .pagination {
+    text-align: left;
+  }
+
+  .related-posts {
+    text-align: right;
   }
 
 }

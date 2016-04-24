@@ -24,7 +24,7 @@ weight: 2
           <a href="{{site.baseurl}}{{post.url}}">{{post.title | strip | upcase}}</a>
           </h2>
           <p class="milli push-1-2">{{ post.date | date: "%B %d, %Y" }}</p>
-          <div class="push-0 milli p-container">{{ post.content }}</div>
+          <div class="push-0 micro p-container">{{ post.content | markdownify }}</div>
 
           <div class="push-0 pad-t-1-4">
             {% assign images = post.images%}
@@ -33,13 +33,13 @@ weight: 2
                 <div class="embed embed-iso216">
                   <img class="embed-item flex-img " src="{{ image.src.fullsize | strip }}" alt="{{ album.title | strip | }}">
                 </div>
-                <div class="grahic-info text-center milli island-1-2">
+                <div class="grahic-info text-center micro island-1-2">
                 <figcaption>
-                  <h3 class="media-title push-0 kilo brand-highlight">{{ image.title | strip | upcase }}</h3>
+                  <h3 class="media-title push-0 micro brand-highlight">{{ image.title | strip | upcase }}</h3>
                   <p class="push-0">({{ image.date }})</p>
                   <p class="push-0">{{ image.materials }}</p>
                   <p class="push-0">{{ image.dimensions }}</p>
-                  <div class="push-0 p-container">{{ image.description | newline_to_br | markdownify}}</div>
+                  <div class="push-0 p-container">{{ image.description | markdownify}}</div>
                 </figcaption>
                 </div>
               </figure>
@@ -47,6 +47,8 @@ weight: 2
           </div>
         </article>
       {% endfor %}
+
+      {% include pagination/default-post-pagination.html %}
 
     </div>
 
@@ -58,7 +60,7 @@ weight: 2
 
   </div>
 
-  {% include pagination/default-post-pagination.html %}
+
 
 </section>
 

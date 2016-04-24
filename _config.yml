@@ -12,6 +12,7 @@ social:
     account-id: thejamesdoe
   - provider: twitter
     account-id: james_doe
+include-analytics-tracking: true
 google-api-key:
 analytics :
   provider : google

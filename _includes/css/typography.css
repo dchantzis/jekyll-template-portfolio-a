@@ -1,8 +1,3 @@
-/*
-  Typografier || Code released under the UNLICENSE
-  http://typografier.web-dev.tools/#0,100,1.3,1.200,0;38,110,1.4,1.200,1;60,120,1.5,1.414,1;90,130,1.5,1.414,1
-*/
-
 html {
   font-size: 100%;
   line-height: 1.3;
@@ -447,37 +442,37 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, blockquote, details, hr, fiel
 }
 
 .yotta {
-  font-size: 11.3018rem;
-  line-height: 15.0000rem;
+  font-size: 3.5832rem;
+  line-height: 4.8750rem;
 }
 
 .zetta {
-  font-size: 7.9928rem;
-  line-height: 10.5000rem;
+  font-size: 2.9860rem;
+  line-height: 4.1250rem;
 }
 
 h1, .exa {
-  font-size: 5.6526rem;
-  line-height: 7.5000rem;
+  font-size: 2.4883rem;
+  line-height: 3.3750rem;
 }
 
 h2, .peta {
-  font-size: 3.9976rem;
-  line-height: 5.2500rem;
+  font-size: 2.0736rem;
+  line-height: 3.0000rem;
 }
 
 h3, .tera {
-  font-size: 2.8271rem;
-  line-height: 3.7500rem;
+  font-size: 1.7280rem;
+  line-height: 2.2500rem;
 }
 
 h4, .giga {
-  font-size: 1.9994rem;
-  line-height: 2.6250rem;
+  font-size: 1.4400rem;
+  line-height: 1.8750rem;
 }
 
 h5, .mega {
-  font-size: 1.4140rem;
+  font-size: 1.2000rem;
   line-height: 1.8750rem;
 }
 
@@ -487,13 +482,13 @@ h6, .kilo, input, textarea {
 }
 
 small, .milli {
-  font-size: 0.7072rem;
-  line-height: 1.1250rem;
+  font-size: 0.8333rem;
+  line-height: 1.5000rem;
 }
 
 .micro {
-  font-size: 0.5002rem;
-  line-height: 0.7500rem;
+  font-size: 0.6944rem;
+  line-height: 1.1250rem;
 }
 
 ul, ol {
@@ -622,37 +617,37 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, blockquote, details, hr, fiel
 }
 
 .yotta {
-  font-size: 11.3018rem;
-  line-height: 15.0000rem;
+  font-size: 3.5832rem;
+  line-height: 4.8750rem;
 }
 
 .zetta {
-  font-size: 7.9928rem;
-  line-height: 10.5000rem;
+  font-size: 2.9860rem;
+  line-height: 4.1250rem;
 }
 
 h1, .exa {
-  font-size: 5.6526rem;
-  line-height: 7.5000rem;
+  font-size: 2.4883rem;
+  line-height: 3.3750rem;
 }
 
 h2, .peta {
-  font-size: 3.9976rem;
-  line-height: 5.2500rem;
+  font-size: 2.0736rem;
+  line-height: 3.0000rem;
 }
 
 h3, .tera {
-  font-size: 2.8271rem;
-  line-height: 3.7500rem;
+  font-size: 1.7280rem;
+  line-height: 2.2500rem;
 }
 
 h4, .giga {
-  font-size: 1.9994rem;
-  line-height: 2.6250rem;
+  font-size: 1.4400rem;
+  line-height: 1.8750rem;
 }
 
 h5, .mega {
-  font-size: 1.4140rem;
+  font-size: 1.2000rem;
   line-height: 1.8750rem;
 }
 
@@ -662,13 +657,13 @@ h6, .kilo, input, textarea {
 }
 
 small, .milli {
-  font-size: 0.7072rem;
-  line-height: 1.1250rem;
+  font-size: 0.8333rem;
+  line-height: 1.5000rem;
 }
 
 .micro {
-  font-size: 0.5002rem;
-  line-height: 0.7500rem;
+  font-size: 0.6944rem;
+  line-height: 1.1250rem;
 }
 
 ul, ol {

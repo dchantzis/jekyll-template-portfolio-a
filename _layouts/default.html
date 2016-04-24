@@ -29,7 +29,7 @@
 
   {% include header.html %}
 
-  <main class="main-content pad-t pad-b-1-2 {% if '/' != page.url %}gutter-2{% else %}gutter{% endif %}">
+  <main class="main-content pad-t pad-b-2 {% if '/' == page.url or '/works/' == page.url %}gutter{% else %}gutter-2{% endif %}">
 
     {{content}}
 
@@ -40,9 +40,15 @@
   <script src="{{site.baseurl}}/assets/js/jquery.scrollTo.min.js"></script>
   <script src="{{site.baseurl}}/assets/js/jquery.waypoints.min.js"></script>
   <script src="{{site.baseurl}}/assets/js/main.js"></script>
-  <script src="{{site.baseurl}}/assets/js/map.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google-api-key }}&callback=initMap"></script>
-  {% include analytics-tracking.html %}
+
+  {% if page.url contains "contact" %}
+    <script src="{{site.baseurl}}/assets/js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google-api-key }}&callback=initMap"></script>
+  {% endif %}
+
+  {% if include-analytics-tracking %}
+    {% include analytics-tracking.html %}
+  {% endif %}
 
 </body>
 

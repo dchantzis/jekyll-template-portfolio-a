@@ -1,6 +1,6 @@
 {% if paginator.total_pages > 1 %}
-<div class="pagination pagination-full push-0 pad-t pad-b">
-  <ul class="list-group--inline milli push-0">
+<div class="pagination pagination-full push-0 pad-b-2">
+  <ul class="list-group--inline micro push-0">
     <li class="list-group__item">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt; prev</a>
