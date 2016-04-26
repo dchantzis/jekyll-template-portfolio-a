@@ -1,6 +1,6 @@
 # README
 
-## Template: Portfolio B
+## Template: Portfolio A
 **Built date:** Early 2016
 
 **Website URL:** [http://dchantzis.github.io/template-portfolio-b](http://dchantzis.github.io/template-portfolio-b)

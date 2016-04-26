@@ -1,7 +1,17 @@
 ---
 layout: post
 title: Sixth post
+titleBefore:
+titleAfter:
+meta: Page description
+author:
+image:
+keywords:
+priority: 1.0
+sectionClass: "post"
 category: news
+comments: true
+isFamilyFriendly: true
 tags:
   - tag 1
 related:

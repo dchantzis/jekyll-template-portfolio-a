@@ -1,11 +1,21 @@
 ---
 layout: post
 title: Ninth post with more characters in title
+titleBefore:
+titleAfter:
+meta: Page description
+author: James Doe
+image:
+keywords: ["dog", "cat", "raccoon", "fox"]
+priority: 1.0
+sectionClass: "post"
 category: news
+comments: true
+isFamilyFriendly: true
 tags:
   - tag 5
 related:
-  - Eight post
+  - Eighth post
 images:
   - title: Image 1
     date: 2016

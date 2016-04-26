@@ -80,6 +80,7 @@ p a:visited {
   padding-right: 1rem;
 }
 
+
 .graphic-info h5 {
   text-transform: capitalize;
   font-weight: normal;
@@ -125,6 +126,57 @@ p a:visited {
   content: " /";
 }
 
+
+.form-submitting {
+  opacity: 0.7;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+fieldset input,
+fieldset textarea {
+  display: block;
+  width: 100%;
+}
+
+fieldset .form-first-name-container {
+  padding-right: 0.1700rem;
+}
+
+fieldset .form-last-name-container {
+  padding-left: 0.1700rem;
+}
+
+fieldset .field-error::first-letter {
+  text-transform: capitalize;
+}
+
+fieldset.form-error {
+  color: rgba(204, 59, 59, 1);
+}
+
+fieldset.form-error input,
+fieldset.form-error textarea {
+  border: 1px solid rgba(204, 59, 59, 1);
+}
+
+.form-contact-notification {
+  background-color: #D1D1D1;
+}
+
+fieldset .field-error,
+.form-contact-notification.form-error {
+  background-color: rgba(204, 59, 59, 1);
+  color: #fff;
+  width: auto;
+  min-width: 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
 
 @media only screen and (min-width: 25em) {
 

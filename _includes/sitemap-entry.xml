@@ -4,6 +4,6 @@
     <changefreq>{{include.entry.changefreq}}</changefreq>
   {% endif %}
   {% if include.entry.priority %}
-    <priority>0.5</priority>
+    <priority>{{include.entry.priority}}</priority>
   {% endif %}
 </url>

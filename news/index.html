@@ -19,11 +19,13 @@ weight: 2
     <div class="unit [ xs-1 s-1 m-2-3 ] ">
 
       {% for post in paginator.posts %}
-        <article class="">
+        <article itemscope="" itemtype="http://schema.org/Article">
           <h2 class="brand-highlight push-1-4 kilo">
-          <a href="{{site.baseurl}}{{post.url}}">{{post.title | strip | upcase}}</a>
+            <a href="{{site.baseurl}}{{post.url}}">{{post.title | strip | upcase}}</a>
           </h2>
-          <p class="milli push-1-2">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p class="milli push-1-2">
+            <time itemprop="datePublished" datetime="{{post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          </p>
           <div class="push-0 micro p-container">{{ post.content | markdownify }}</div>
 
           <div class="push-0 pad-t-1-4">
@@ -59,8 +61,6 @@ weight: 2
     </div>
 
   </div>
-
-
 
 </section>
 

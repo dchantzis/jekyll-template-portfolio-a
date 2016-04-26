@@ -1,10 +1,11 @@
 markdown: kramdown
 baseurl: /template-portfolio-a
-website-title: Website title
+website-title: Portfolio website of artist James Doe
+website-description: Website Description
+website-author: James Doe
 exclude: ['README.md', '.gitignore']
 permalink: pretty
-site-name: James Doe
-email: contact@your.email.address
+email: chantzis.dimitrios@gmail.com
 social:
   - provider: facebook
     account-id: thejamesdoe
@@ -27,5 +28,8 @@ gems: [
     jekyll/tagging,
     jekyll-tagging-related_posts
   ]
+disqus:
+  comments: false
+  url: demodchantzis.disqus.com
 paginate: 5
 paginate_path: "/news/page:num/"

@@ -16,9 +16,9 @@
     <div class="grid grid-middle">
       <div class="unit [ xs-1 s-1 m-1 l-1-5 ] logo-wrapper push-1-4">
         {% if '/' == page.url %}
-          <h1 class="logo push-0 kilo"><a href="{{site.baseurl}}/">{{ site.site-name | strip }}</a></h1>
+          <h1 class="logo push-0 kilo"><a href="{{site.baseurl}}/">{{ site.website-title | strip }}</a></h1>
         {% else %}
-          <h2 class="logo push-0 kilo"><a href="{{site.baseurl}}/">{{ site.site-name | strip }}</a></h2>
+          <h2 class="logo push-0 kilo"><a href="{{site.baseurl}}/">{{ site.website-title | strip }}</a></h2>
         {% endif %}
       </div>
 
@@ -31,17 +31,17 @@
       <div class="unit [ xs-1 s-1 m-1-2 l-2-5 ]">
 
         <ul class="list-group--inline push-0 social-links">
-          <li class="email micro"><a href="mailto:{{site.email}}">{{site.email}}</a></li>
+          <li class="email micro"><a href="mailto:{{site.email}}" itemprop="email">{{site.email}}</a></li>
         {% for social in site.social %}
           {% assign social.provider == social.provider | downcase %}
             <li class="list-group__item mega">
             {% case social.provider %}
               {% when 'facebook' %}
-                 <a href="https://www.facebook.com/{{social.account-id}}" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                 <a href="https://www.facebook.com/{{social.account-id}}" target="_blank" rel="external"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
               {% when 'instagram' %}
-                 <a href="https://www.instagram.com/{{social.account-id}}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                 <a href="https://www.instagram.com/{{social.account-id}}" target="_blank" rel="external"><i class="fa fa-instagram" aria-hidden="true"></i></a>
               {% when 'twitter' %}
-                 <a href="https://twitter.com/{{social.account-id}}" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                 <a href="https://twitter.com/{{social.account-id}}" target="_blank" rel="external"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
             {% endcase %}
             </li>
         {% endfor %}

@@ -19,3 +19,10 @@
 	background-color: #ca221b;
 	background-image: linear-gradient(to bottom, #ca221b, #a80009);
 }
+
+.form-btn {
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 1);
+	border: 0;
+	color: #fff;
+}

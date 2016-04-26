@@ -4,13 +4,13 @@ layout: default
 
 {% assign album = page %}
 
-<section class="album">
+<section class="{{page.sectionClass}}">
 
-{% if false == album.hide-title %}
+{% if false == album.hide-page-title %}
   <div class="grid album-info">
     <div class="unit [ xs-1 s-1 m-2-3 ]">
-      <h1 class="brand-highlight push-1-4 kilo">{{ album.title | strip | upcase}}</h1>
-      <div class="push-0 micro p-container">{{ content | markdownify}}</div>
+      <h1 class="brand-highlight push-1-4 kilo">{{ album.title | strip | upcase }}</h1>
+      <div class="push-0 micro p-container">{{ content | markdownify }}</div>
     </div>
   </div>
 {% endif %}
@@ -29,7 +29,7 @@ layout: default
               <h3 class="media-title push-0 micro brand-highlight">{{ image.title | strip | upcase }} ({{ image.date }})</h3>
               <p class="push-0">{{ image.materials }}</p>
               <p class="push-0">{{ image.dimensions }}</p>
-              <div class="push-0 p-container">{{ image.description | markdownify}}</div>
+              <div class="push-0 p-container">{{ image.description | markdownify }}</div>
             </figcaption>
           </div>
         </div>
