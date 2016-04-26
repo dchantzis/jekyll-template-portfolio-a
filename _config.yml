@@ -1,13 +1,13 @@
 markdown: kramdown
 baseurl: /template-portfolio-a
-website-title: Portfolio website of artist James Doe
-website-description: Website Description
+website-title: James Doe
+website-description: Portfolio website of James Doe
 website-author: James Doe
 exclude: ['README.md', '.gitignore']
 permalink: pretty
 email: chantzis.dimitrios@gmail.com
 social:
-  - provider: facebook
+  - facebook: facebook
     account-id: thejamesdoe
   - provider: instagram
     account-id: thejamesdoe
