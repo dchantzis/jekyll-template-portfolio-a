@@ -22,7 +22,7 @@ layout: default
           {% for image in images %}
             <figure class="graphic album-image pad-t-1-4">
               <div class="embed embed-iso216">
-                <img class="embed-item flex-img " src="{{ image.src.fullsize | strip }}" alt="{{ album.title | strip | }}">
+                <img class="embed-item flex-img " src="{{ image.src.fullsize | strip }}" alt="{{ album.title | strip }}">
               </div>
               <div class="grahic-info text-center micro island-1-2">
               <figcaption>
@@ -35,6 +35,10 @@ layout: default
               </div>
             </figure>
           {% endfor %}
+        </div>
+
+        <div class="pad-t-1-2 pad-b-1-2">
+          {% include social-share-buttons-fontawesome.html %}
         </div>
 
         {% if site.disqus.comments and page.comments %}

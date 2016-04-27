@@ -1,0 +1,18 @@
+{% if site.social-share.display and site.social-share.media.size >= 1%}
+  <h6 class="push-0 brand-highlight inline-block">Share:</h6>
+  <ul class="push-0 list-group--inline inline-block social-btns">
+  {% for item in site.social-share.media %}
+      {% if item.display %}{% continue %}{% endif %}
+      <li class="list-group__item kilo">
+        <a href="{{item.sharer-prefix}}{{site.baseurl}}{{site.url}}" data-type="{{item.provider}}" class="social-btn icon-link" target="_blank">
+          <i class="icon i-24 i-{{item.provider}}"></i>
+          <span class="icon-label hidden">{{item.provider}}</span>
+        </a>
+      </li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+
+<!-- linkedin sharer page url http%3A//www.google.com&title=a&summary=&source= -->
+<!-- pinterest https://pinterest.com/pin/create/button/?url=http%3A//www.google.com&media=image.jpg&description= -->

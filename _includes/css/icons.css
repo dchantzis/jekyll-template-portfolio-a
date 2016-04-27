@@ -51,3 +51,67 @@
 .icon-link, .icon-link:hover {
   text-decoration: none;
 }
+
+.i-facebook {
+  background-image: url("../img/style/facebook.svg");
+}
+
+.i-twitter {
+  background-image: url("../img/style/twitter.svg");
+}
+
+.i-linkedin {
+  background-image: url("../img/style/linkedin.svg");
+}
+
+.i-reddit {
+  background-image: url("../img/style/reddit.svg");
+}
+
+.i-github {
+  background-image: url("../img/style/github.svg");
+}
+
+.i-googleplus {
+  background-image: url("../img/style/googleplus.svg");
+}
+
+.i-pinterest {
+  background-image: url("../img/style/pinterest.svg");
+}
+
+.i-tumblr {
+  background-image: url("../img/style/tumblr.svg");
+}
+
+.i-instagram {
+  background-image: url("../img/style/instagram.svg");
+}
+
+.social-btn-facebook {
+  background-color: rgba(59, 89, 152, 1); /* #3B5998 */
+}
+.social-btn-twitter {
+  background-color: rgba(85, 172, 238, 1); /* #55ACEE */
+}
+.social-btn-reddit {
+  background-color: rgba(255, 69, 0, 1); /* #FF4500 */
+}
+.social-btn-googleplus {
+  background-color: rgba(220, 78, 65, 1); /* #DC4E41 */
+}
+.social-btn-pinterest {
+  background-color: rgba(189, 8, 28, 1); /* #BD081C */
+}
+.shsocialare-btn-tumblr {
+  background-color: rgba(54, 70, 93, 1); /* #36465D */
+}
+.social-btn-instagram {
+  background-color: rgba(18, 86, 136, 1); /* #125688 */
+}
+.social-btn-github {
+  background-color: rgba(24, 23, 23, 1); /* #181717 */
+}
+.social-btn-linkedin {
+  background-color: rgba(0, 119, 181, 1); /* #0077B5 */
+}

@@ -37,11 +37,8 @@ a.current {
   color: rgba(139, 139, 139, 1);;
 }
 
-
-
 li.email {
   letter-spacing: 1px;
-  display: block;
 }
 
 .social-links a,
@@ -198,11 +195,7 @@ fieldset .field-error,
   }
 
   .email {
-    text-align: right;
     letter-spacing: 1px;
-    padding-right: 0.5rem;
-    line-height: 1.6rem;
-    float: left;
   }
 
   .social-links {
@@ -296,10 +289,6 @@ fieldset .field-error,
   .masthead,
   .main-content {
     width: 50rem;
-  }
-
-  .email {
-    line-height: 1.8rem;
   }
 
   .album .graphic-info {

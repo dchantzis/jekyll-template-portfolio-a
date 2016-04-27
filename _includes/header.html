@@ -37,11 +37,20 @@
             <li class="list-group__item mega">
             {% case social.provider %}
               {% when 'facebook' %}
-                 <a href="https://www.facebook.com/{{social.account-id}}" target="_blank" rel="external"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                 <a class="icon-link" href="https://www.facebook.com/{{social.account-id}}" target="_blank" rel="external">
+                  <i class="icon i-18 i-facebook"></i>
+                  <span class="icon-label hidden">facebook</span>
+                 </a>
               {% when 'instagram' %}
-                 <a href="https://www.instagram.com/{{social.account-id}}" target="_blank" rel="external"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                 <a class="icon-link" href="https://www.instagram.com/{{social.account-id}}" target="_blank" rel="external">
+                  <i class="icon i-18 i-instagram"></i>
+                  <span class="icon-label hidden">instagram</span>
+                </a>
               {% when 'twitter' %}
-                 <a href="https://twitter.com/{{social.account-id}}" target="_blank" rel="external"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                 <a class="icon-link" href="https://twitter.com/{{social.account-id}}" target="_blank" rel="external">
+                  <i class="icon i-18 i-twitter"></i>
+                  <span class="icon-label hidden">twitter</span>
+                </a>
             {% endcase %}
             </li>
         {% endfor %}
