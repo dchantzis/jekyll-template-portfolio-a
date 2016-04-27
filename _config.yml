@@ -1,5 +1,6 @@
 markdown: kramdown
-baseurl: http://orchid-blossom.cloudvent.net/
+baseurl: /template-portfolio-a
+url: http://orchid-blossom.cloudvent.net/
 website-title: James Doe
 website-description: Portfolio website of James Doe
 website-author: James Doe

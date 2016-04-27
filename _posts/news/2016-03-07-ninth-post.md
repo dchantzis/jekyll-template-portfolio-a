@@ -10,7 +10,7 @@ keywords: ["dog", "cat", "raccoon", "fox"]
 priority: 1.0
 sectionClass: "post"
 category: news
-comments: true
+comments: false
 isFamilyFriendly: true
 tags:
   - tag 5
