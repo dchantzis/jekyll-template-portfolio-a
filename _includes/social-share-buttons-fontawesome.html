@@ -4,7 +4,7 @@
   {% for item in site.social-share.media %}
       {% if false == item.display %}{% continue %}{% endif %}
       <li class="list-group__item kilo">
-        <a href="{{item.sharer-prefix}}{{site.baseurl}}{{page.url}}" class="social-btn social-btn-{{item.provider}}" data-type="{{item.provider}}" target="_blank">
+        <a href="{{item.sharer-prefix}}{{site.baseurl}}/{{page.url}}" class="social-btn social-btn-{{item.provider}}" data-type="{{item.provider}}" target="_blank">
           <i class="fa fa-{{item.provider}}" aria-hidden="true"></i>
           <span class="hidden">{{item.provider}}</span>
         </a>
