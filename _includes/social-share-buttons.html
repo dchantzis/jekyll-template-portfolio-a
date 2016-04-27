@@ -4,7 +4,7 @@
   {% for item in site.social-share.media %}
       {% if item.display %}{% continue %}{% endif %}
       <li class="list-group__item kilo">
-        <a href="{{item.sharer-prefix}}{{site.url}}{{site.url}}" data-type="{{item.provider}}" class="social-btn icon-link" target="_blank">
+        <a href="{{item.sharer-prefix}}{{site.url}}{{page.url}}" data-type="{{item.provider}}" class="social-btn icon-link" target="_blank">
           <i class="icon i-24 i-{{item.provider}}"></i>
           <span class="icon-label hidden">{{item.provider}}</span>
         </a>
